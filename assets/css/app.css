@@ -138,8 +138,8 @@ button:hover {
 .details {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   color: var(--desaturatedBlue);
   font-size: 14px;
   line-height: 1.6em;
@@ -153,6 +153,7 @@ button:hover {
   .card {
     max-width: 320px;
     height: 70vh;
+    width: 80vw;
   }
   .card-header {
     height: 160px;
@@ -166,9 +167,11 @@ button:hover {
   .card {
     width: 27vw;
     height: 75vh;
+    min-width: 320px;
+    max-width: 386px;
+    max-height: 633px;
   }
-  .card-body {
-    padding-left: 50px;
-    padding-right: 50px;
+  .details {
+    margin-left: -20%;
   }
 }
