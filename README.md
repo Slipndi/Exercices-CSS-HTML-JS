@@ -24,21 +24,18 @@ Users should be able to:
 
 ### Screenshot
 
+Mobile Design
 ![Mobile design](./Designs/mobile-design.png)
-
-### Links
-
-## My process
+![Mobile design objectif](./Examples/mobile-design.jpg)
+![Desktop design](./Designs/desktop-design.png)
+![Desktop design objectif](./Examples/desktop-design.jpg)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-
-### What I learned
 
 ## Author
 
