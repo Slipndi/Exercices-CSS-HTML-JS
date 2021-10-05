@@ -70,7 +70,7 @@ body {
 
 .card-body H3 {
   font-weight: 900;
-  font-size: 1.5em;
+  font-size: 25px;
   color: var(--darkBlue);
 }
 
@@ -158,14 +158,17 @@ button:hover {
     height: 160px;
   }
 }
-
 @media screen and (min-width: 380px) {
   body {
     background-image: url('/assets/images/pattern-background-desktop.svg');
     background-repeat: repeat-x;
   }
   .card {
-    width: 30vw;
+    width: 27vw;
     height: 75vh;
+  }
+  .card-body {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
